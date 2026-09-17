@@ -93,8 +93,8 @@ spec:
 ## 6. How to Run and Test
 
 ### Step 1: Apply the ExternalName Service
-```bash
-kubectl apply -f 04-externalname/service.yaml
+kubectl apply -f 04-externalname/service.yaml```bash
+
 ```
 
 Inspect the service:
