@@ -71,9 +71,9 @@ liveness-demo   1/1     Running
 
 Check details:
 
-```bash
+
+``````bash
 kubectl describe pod liveness-demo
-```
 
 Look for:
 
@@ -411,7 +411,7 @@ Application should continue/restart
 
 ## Reference
 
-* **Kubernetes Probes:**  
+* **Kubernetes Probes:**
   https://kubernetes.io/docs/concepts/workloads/pods/probes/
-* **Probe Configuration:**  
+* **Probe Configuration:**
   https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/
