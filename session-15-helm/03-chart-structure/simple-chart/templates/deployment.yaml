@@ -8,12 +8,12 @@ spec:
     matchLabels:
       app: {{ .Release.Name }}
   template:
-    metadata:
-      labels:
-        app: {{ .Release.Name }}
-    spec:
-      containers:
-        - name: app
-          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
-          ports:
-            - containerPort: {{ .Values.service.port }}
+      metadata:
+        labels:
+          app: {{ .Release.Name }}
+      spec:
+        containers:
+          - name: app
+            image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+            ports:
+              - containerPort: {{ .Values.service.port }}
