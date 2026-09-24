@@ -4,8 +4,4 @@ metadata:
   name: external-database-service
 spec:
   type: ExternalName
-<<<<<<< Updated upstream
-  externalName: nencyravaliya.me
-=======
   externalName: api.ananya.com
->>>>>>> Stashed changes
